@@ -10,99 +10,99 @@ const PrivacyPolicy = () => {
       
       <main className="w-full max-w-[1200px] px-8 py-16">
         <nav className="text-sm text-gray-600 mb-8">
-          <Link to="/" className="hover:text-primary">Strona główna</Link>
+          <Link to="/" className="hover:text-primary">Página principal</Link>
           <span className="mx-2">&gt;&gt;</span>
-          <span>Polityka Prywatności</span>
+          <span>Política de Privacidad</span>
         </nav>
 
-        <h1 className="text-4xl font-bold text-[#4D4D4D] mb-8">Polityka prywatności</h1>
+        <h1 className="text-4xl font-bold text-[#4D4D4D] mb-8">Política de privacidad</h1>
 
         <div className="bg-white rounded-lg p-8 shadow-sm space-y-6">
           <section>
-            <h2 className="text-2xl font-bold text-[#4D4D4D] mb-4">1. Kim jesteśmy</h2>
+            <h2 className="text-2xl font-bold text-[#4D4D4D] mb-4">1. Quiénes somos</h2>
             <ol className="space-y-4 list-decimal list-inside text-gray-700">
-              <li>Niniejsza polityka dotyczy Serwisu www, funkcjonującego pod adresem www.cargoseller.pl</li>
-              <li>Administrator przykłada wielką wagę do respektowania praw przysługujących użytkownikom korzystającym z usług i funkcjonalności oferowanych w ramach Serwisu, jak i użytkownikom korzystającym z Serwisu bez korzystania z usług i funkcjonalności oferowanych w ramach Serwisu, ze szczególnym uwzględnieniem prawa do ochrony prywatności. W związku z tym gromadzimy jedynie minimum informacji pomagających nam lepiej zrozumieć potrzeby Użytkowników oraz dostosować Serwis, jego funkcjonalności i ergonomię do zmieniających się oczekiwań Użytkowników. Między innymi w tym celu zbieramy i przetwarzamy niezbędne dane Użytkowników, w tym Dane Osobowe oraz inne, nie posiadające takiego przymiotu. Zbieranie odbywa się, w zależności od rodzaju danych, z inicjatywy Użytkownika lub automatycznie.</li>
-              <li>Administrator przetwarza Dane Osobowe zgodnie z przepisami Rozporządzania RODO a także innymi właściwymi przepisami obowiązującego prawa, w tym w szczególności krajowymi przepisami dotyczącymi ochrony danych osobowych. Administrator dla skutecznej ochrony Danych stosuje odpowiednie do zagrożeń i kategorii Danych środki bezpieczeństwa przetwarzania Danych, spełniające wymogi określone w obowiązujących przepisach prawa (m.in. hasła dostępu, ograniczenia osób z uprawnieniami dostępu czy umieszczanie serwerów gromadzących dane w przeznaczonych do tego pomieszczeniach bądź oddając je w zarządzanie wyspecjalizowanym podmiotom).</li>
-              <li>Operatorem serwisu oraz Administratorem danych osobowych jest:
+              <li>Esta política se refiere al sitio web, que funciona bajo la dirección www.cargoseller.pl</li>
+              <li>El Administrador concede gran importancia al respeto de los derechos de los usuarios que utilizan los servicios y funcionalidades ofrecidos en el marco del Sitio, así como de los usuarios que utilizan el Sitio sin utilizar los servicios y funcionalidades ofrecidos en el marco del Sitio, con especial atención al derecho a la protección de la privacidad. Por lo tanto, recopilamos solo el mínimo de información que nos ayuda a comprender mejor las necesidades de los Usuarios y adaptar el Sitio, su funcionalidad y ergonomía a las expectativas cambiantes de los Usuarios. Entre otras cosas, con este fin recopilamos y procesamos los datos necesarios de los Usuarios, incluidos los Datos Personales y otros que no poseen tal atributo. La recopilación se realiza, dependiendo del tipo de datos, por iniciativa del Usuario o automáticamente.</li>
+              <li>El Administrador procesa los Datos Personales de acuerdo con las disposiciones del Reglamento GDPR, así como otras disposiciones pertinentes de la legislación vigente, en particular las disposiciones nacionales sobre protección de datos personales. El Administrador aplica medidas de seguridad apropiadas a las amenazas y categorías de Datos para la protección efectiva de los Datos, cumpliendo con los requisitos especificados en las disposiciones legales vigentes (por ejemplo, contraseñas de acceso, restricciones de personas con permisos de acceso o colocación de servidores que recopilan datos en instalaciones designadas o entregándolos a la gestión de entidades especializadas).</li>
+              <li>El operador del sitio y el Administrador de datos personales es:
                 <div className="ml-6 mt-2 font-semibold">CS SOFT Monika Janczukowicz z siedzibą Szydłowo 189, 64-930 Szydłowo<br/>NIP: 7651604754 REGON: 302309608</div>
               </li>
-              <li>Adres kontaktowy poczty elektronicznej operatora: kontakt@cargoseller.pl</li>
-              <li>Operator jest Administratorem Twoich danych osobowych w odniesieniu do danych podanych dobrowolnie w Serwisie.</li>
-              <li>Serwis wykorzystuje dane osobowe w następujących celach:
+              <li>Dirección de contacto de correo electrónico del operador: kontakt@cargoseller.pl</li>
+              <li>El Operador es el Administrador de sus datos personales con respecto a los datos proporcionados voluntariamente en el Sitio.</li>
+              <li>El Sitio utiliza datos personales para los siguientes fines:
                 <ul className="ml-6 mt-2 list-disc list-inside">
-                  <li>Obsługa zapytań przez formularz</li>
-                  <li>Prezentacja oferty lub informacji</li>
+                  <li>Gestión de consultas a través del formulario</li>
+                  <li>Presentación de ofertas o información</li>
                 </ul>
               </li>
-              <li>Serwis realizuje funkcje pozyskiwania informacji o użytkownikach i ich zachowaniu w następujący sposób:
+              <li>El Sitio realiza funciones de obtención de información sobre usuarios y su comportamiento de la siguiente manera:
                 <ul className="ml-6 mt-2 list-disc list-inside">
-                  <li>Poprzez dobrowolnie wprowadzone w formularzach dane, które zostają wprowadzone do systemów Operatora.</li>
-                  <li>Poprzez zapisywanie w urządzeniach końcowych plików cookie (tzw. „ciasteczka").</li>
+                  <li>A través de datos introducidos voluntariamente en formularios, que se introducen en los sistemas del Operador.</li>
+                  <li>A través del almacenamiento de archivos cookie en los dispositivos finales.</li>
                 </ul>
               </li>
-              <li>Serwis cargoseller.pl zastrzega sobie prawo do wprowadzania zmian w Polityce Prywatności. Każdego użytkownika serwisu obowiązuje aktualna Polityka Prywatności znajdująca się na stronie https://cargoseller.pl/polityka-prywatnosci/. Jakiekolwiek wprowadzane zmiany nie wpływają na podstawową zasadę: <strong>Serwis nie sprzedaje i nie udostępnia osobom trzecim danych personalnych czy adresowych klientów/użytkowników swoich serwisów i czasopism do celów marketingowych.</strong></li>
-              <li>Jeśli nie zgadzasz się z Polityką Prywatności, proszę nie odwiedzać serwisu, nie nabywać produktów i usług oferowanych przez serwis.</li>
+              <li>El Sitio cargoseller.pl se reserva el derecho de introducir cambios en la Política de Privacidad. Cada usuario del sitio está sujeto a la Política de Privacidad actual que se encuentra en la página https://cargoseller.pl/polityka-prywatnosci/. Cualquier cambio introducido no afecta al principio básico: <strong>El Sitio no vende ni proporciona a terceros datos personales o de dirección de clientes/usuarios de sus sitios y publicaciones con fines de marketing.</strong></li>
+              <li>Si no está de acuerdo con la Política de Privacidad, por favor no visite el sitio, no adquiera productos y servicios ofrecidos por el sitio.</li>
             </ol>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-[#4D4D4D] mb-4">2. Dane osobowe</h2>
+            <h2 className="text-2xl font-bold text-[#4D4D4D] mb-4">2. Datos personales</h2>
             <ol className="space-y-4 list-decimal list-inside text-gray-700">
-              <li>W czasie korzystania z serwisów należących do Serwisu możesz zostać poproszony o podanie niektórych swoich danych osobowych poprzez wypełnienie formularza kontaktowego. Dane, o które będziesz proszony, to Imię i Nazwisko, Numer telefonu, Adres Email, Nazwa firmy.</li>
-              <li>Wymagamy tylko tych danych, które są niezbędne do kontaktu. Brak wypełnienia wymaganych pól formularza uniemożliwia kontakt.</li>
-              <li>Dane Użytkowników będą przetwarzane w następujących celach:
+              <li>Al utilizar los sitios pertenecientes al Sitio, es posible que se le solicite proporcionar algunos de sus datos personales mediante el llenado de un formulario de contacto. Los datos que se le solicitarán son Nombre y Apellido, Número de teléfono, Dirección de correo electrónico, Nombre de empresa.</li>
+              <li>Solo requerimos aquellos datos que son necesarios para el contacto. La falta de llenado de los campos obligatorios del formulario imposibilita el contacto.</li>
+              <li>Los datos de los Usuarios se procesarán para los siguientes fines:
                 <ol className="ml-6 mt-2 list-decimal list-inside">
-                  <li>umożliwienie Użytkownikom korzystania z usług Serwisu (art. 6 ust. 1 lit. a) Rozporządzenia RODO – dobrowolna zgoda i art. 6 ust. 1 lit. b) Rozporządzenia RODO – w zakresie Danych niezbędnych do świadczenia usług/wykonania umowy);</li>
-                  <li>odpowiadanie przez Administratora na zapytania, wezwania bądź wnioski Użytkowników (art. 6 ust. 1 lit. a) Rozporządzenia RODO – dobrowolna zgoda i art. 6 ust. 1 lit. b) Rozporządzenia RODO – w zakresie Danych niezbędnych do świadczenia usług/wykonania umowy),</li>
-                  <li>wypełnianie prawnie usprawiedliwionych celów Administratora w postaci marketingu produktów i usług Administratora (art. 6 ust. 1 lit. f) Rozporządzenia RODO – uzasadniony interes Administratora);</li>
+                  <li>permitir a los Usuarios utilizar los servicios del Sitio (art. 6 párr. 1 lit. a) Reglamento GDPR – consentimiento voluntario y art. 6 párr. 1 lit. b) Reglamento GDPR – en el alcance de Datos necesarios para la prestación de servicios/ejecución del contrato);</li>
+                  <li>responder por el Administrador a consultas, llamadas o solicitudes de Usuarios (art. 6 párr. 1 lit. a) Reglamento GDPR – consentimiento voluntario y art. 6 párr. 1 lit. b) Reglamento GDPR – en el alcance de Datos necesarios para la prestación de servicios/ejecución del contrato),</li>
+                  <li>cumplir con los fines legalmente justificados del Administrador en forma de marketing de productos y servicios del Administrador (art. 6 párr. 1 lit. f) Reglamento GDPR – interés legítimo del Administrador);</li>
                 </ol>
               </li>
-              <li>W niektórych sytuacjach Administrator ma prawo przekazywać Twoje dane osobowe innym odbiorcom, jeśli będzie to niezbędne do wykonania zawartej z Tobą umowy lub do zrealizowania obowiązków ciążących na Administratorze. Dotyczy to takich grup odbiorców:
+              <li>En algunas situaciones, el Administrador tiene derecho a transferir sus datos personales a otros destinatarios, si es necesario para ejecutar el contrato celebrado con usted o para cumplir con las obligaciones que recaen sobre el Administrador. Esto se refiere a tales grupos de destinatarios:
                 <ul className="ml-6 mt-2 list-disc list-inside">
-                  <li>firma hostingowa na zasadzie powierzenia</li>
-                  <li>organy publiczne</li>
-                  <li>firmy, świadczące usługi na rzecz Administratora (Software house)</li>
+                  <li>empresa de hosting en base a encomienda</li>
+                  <li>autoridades públicas</li>
+                  <li>empresas que prestan servicios en nombre del Administrador (Software house)</li>
                 </ul>
               </li>
-              <li>Twoje dane osobowe przetwarzane przez Administratora nie dłużej, niż jest to konieczne do wykonania związanych z nimi czynności określonych osobnymi przepisami.</li>
-              <li>Przysługuje Ci prawo żądania od Administratora:
+              <li>Sus datos personales procesados por el Administrador no más tiempo del necesario para realizar las actividades relacionadas con ellos especificadas por disposiciones separadas.</li>
+              <li>Tiene derecho a solicitar al Administrador:
                 <ul className="ml-6 mt-2 list-disc list-inside">
-                  <li>dostępu do danych osobowych Ciebie dotyczących,</li>
-                  <li>ich sprostowania,</li>
-                  <li>usunięcia,</li>
-                  <li>ograniczenia przetwarzania,</li>
-                  <li>oraz przenoszenia danych.</li>
+                  <li>acceso a los datos personales que le conciernen,</li>
+                  <li>su rectificación,</li>
+                  <li>eliminación,</li>
+                  <li>limitación del procesamiento,</li>
+                  <li>y transferencia de datos.</li>
                 </ul>
               </li>
-              <li>Przysługuje Ci prawo do złożenia sprzeciwu w zakresie przetwarzania wskazanego w pkt 3.3 c) wobec przetwarzania danych osobowych w celu wykonania prawnie uzasadnionych interesów realizowanych przez Administratora, w tym profilowania, przy czym prawo sprzeciwu nie będzie mogło być wykonane w przypadku istnienia ważnych prawnie uzasadnionych podstaw do przetwarzania, nadrzędnych wobec Ciebie interesów, praw i wolności, w szczególności ustalenia, dochodzenia lub obrony roszczeń.</li>
-              <li>Na działania Administratora przysługuje skarga do Prezesa Urzędu Ochrony Danych Osobowych, ul. Stawki 2, 00-193 Warszawa.</li>
-              <li>Podanie danych osobowych jest dobrowolne, lecz niezbędne do obsługi Serwisu.</li>
-              <li>W stosunku do Ciebie mogą być podejmowane czynności polegające na zautomatyzowanym podejmowaniu decyzji, w tym profilowaniu w celu świadczenia usług w ramach zawartej umowy oraz w celu prowadzenia przez Administratora marketingu bezpośredniego.</li>
-              <li>Dane osobowe nie są przekazywane do krajów trzecich w rozumieniu przepisów o ochronie danych osobowych. Oznacza to, że nie przesyłamy ich poza teren Unii Europejskiej.</li>
+              <li>Tiene derecho a presentar una objeción en el alcance del procesamiento indicado en el punto 3.3 c) con respecto al procesamiento de datos personales con el fin de ejecutar intereses legalmente justificados realizados por el Administrador, incluida la elaboración de perfiles, mientras que el derecho de objeción no podrá ser ejercido en caso de existencia de bases legalmente justificadas importantes para el procesamiento, superiores a sus intereses, derechos y libertades, en particular el establecimiento, la persecución o la defensa de reclamaciones.</li>
+              <li>Sobre las acciones del Administrador procede una queja ante el Presidente de la Oficina de Protección de Datos Personales, ul. Stawki 2, 00-193 Varsovia.</li>
+              <li>Proporcionar datos personales es voluntario, pero necesario para el funcionamiento del Sitio.</li>
+              <li>En relación con usted pueden realizarse acciones que consisten en la toma automatizada de decisiones, incluida la elaboración de perfiles con el fin de prestar servicios en el marco del contrato celebrado y con el fin de realizar por el Administrador marketing directo.</li>
+              <li>Los datos personales no se transfieren a terceros países en el sentido de las disposiciones sobre protección de datos personales. Esto significa que no los enviamos fuera del territorio de la Unión Europea.</li>
             </ol>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-[#4D4D4D] mb-4">3. Istotne techniki marketingowe</h2>
+            <h2 className="text-2xl font-bold text-[#4D4D4D] mb-4">3. Técnicas de marketing importantes</h2>
             <ol className="space-y-4 list-decimal list-inside text-gray-700">
-              <li>Operator stosuje analizę statystyczną ruchu na stronie, poprzez Google Analytics (Google Inc. z siedzibą w USA). Operator nie przekazuje do operatora tej usługi danych osobowych, a jedynie zanonimizowane informacje. Usługa bazuje na wykorzystaniu ciasteczek w urządzeniu końcowym użytkownika. W zakresie informacji o preferencjach użytkownika gromadzonych przez sieć reklamową Google użytkownik może przeglądać i edytować informacje wynikające z plików cookies przy pomocy narzędzia: https://www.google.com/ads/preferences/</li>
-              <li>Operator stosuje techniki remarketingowe, pozwalające na dopasowanie przekazów reklamowych do zachowania użytkownika na stronie, co może dawać złudzenie, że dane osobowe użytkownika są wykorzystywane do jego śledzenia, jednak w praktyce nie dochodzi do przekazania żadnych danych osobowych od Operatora do operatorom reklam. Technologicznym warunkiem takich działań jest włączona obsługa plików cookie.</li>
-              <li>Operator korzysta z piksela Facebooka. Ta technologia powoduje, że serwis Facebook (Facebook Inc. z siedzibą w USA) wie, że dana osoba w nim zarejestrowana korzysta z Serwisu. Bazuje w tym wypadku na danych, wobec których sam jest administratorem, Operator nie przekazuje od siebie żadnych dodatkowych danych osobowych serwisowi Facebook. Usługa bazuje na wykorzystaniu ciasteczek w urządzeniu końcowym użytkownika</li>
+              <li>El Operador aplica análisis estadístico del tráfico en el sitio, a través de Google Analytics (Google Inc. con sede en EE. UU.). El Operador no transfiere datos personales al operador de este servicio, solo información anonimizada. El servicio se basa en el uso de cookies en el dispositivo final del usuario. En el alcance de información sobre las preferencias del usuario recopiladas por la red publicitaria de Google, el usuario puede ver y editar información resultante de archivos cookies mediante la herramienta: https://www.google.com/ads/preferences/</li>
+              <li>El Operador aplica técnicas de remarketing, que permiten adaptar mensajes publicitarios al comportamiento del usuario en el sitio, lo que puede dar la ilusión de que los datos personales del usuario se utilizan para rastrearlo, pero en la práctica no se transfieren datos personales del Operador a los operadores de publicidad. La condición tecnológica de tales acciones es el soporte habilitado de archivos cookie.</li>
+              <li>El Operador utiliza el píxel de Facebook. Esta tecnología hace que el sitio Facebook (Facebook Inc. con sede en EE. UU.) sepa que una persona registrada en él está utilizando el Sitio. En este caso se basa en datos de los cuales él mismo es el administrador, el Operador no transfiere ningún dato personal adicional al servicio de Facebook. El servicio se basa en el uso de cookies en el dispositivo final del usuario</li>
             </ol>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-[#4D4D4D] mb-4">4. Niezapowiedziane wiadomości</h2>
+            <h2 className="text-2xl font-bold text-[#4D4D4D] mb-4">4. Mensajes no anunciados</h2>
             <ol className="space-y-4 list-decimal list-inside text-gray-700">
-              <li>Serwis zastrzega sobie prawo do wysyłania niezapowiedzianych wiadomości osobom, których dane kontaktowe posiada i które zgodziły się z Polityką Prywatności. Pod pojęciem niezapowiedzianych wiadomości rozumie się informacje odnoszące się bezpośrednio do jego serwisu i produktu.</li>
+              <li>El Sitio se reserva el derecho de enviar mensajes no anunciados a personas cuyos datos de contacto posee y que han aceptado la Política de Privacidad. Por mensajes no anunciados se entiende información relacionada directamente con su sitio y producto.</li>
             </ol>
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-[#4D4D4D] mb-4">5. Cookies (Ciasteczka)</h2>
+            <h2 className="text-2xl font-bold text-[#4D4D4D] mb-4">5. Cookies</h2>
             <p className="text-gray-700">
-              Niektóre obszary serwisu należących do Serwisu mogą wykorzystywać cookies, czyli małe pliki tekstowe wysyłane do komputera internauty identyfikujące go w sposób potrzebny do uproszczenia lub umorzenia danej operacji. Cookies są nieszkodliwe ani dla komputera ani dla jego użytkownika i jego danych. Warunkiem działania cookies jest ich akceptacja przez przeglądarkę i nie usuwanie ich z dysku.
+              Algunas áreas del sitio pertenecientes al Sitio pueden utilizar cookies, es decir, pequeños archivos de texto enviados a la computadora del internauta identificándolo de la manera necesaria para simplificar o amortizar una operación determinada. Las cookies no son dañinas ni para la computadora ni para su usuario y sus datos. La condición para el funcionamiento de las cookies es su aceptación por el navegador y no eliminarlas del disco.
             </p>
           </section>
         </div>
