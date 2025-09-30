@@ -71,7 +71,7 @@ const PricingCard: React.FC<PricingCardProps> = ({
         </div>
         <a href="https://app.cargoseller.pl/register" className="bg-[rgba(235,235,235,1)] flex max-w-full w-[325px] flex-col text-lg text-[#4D4D4D] font-normal text-center leading-none justify-center px-8 py-4 rounded-3xl max-md:px-5 hover:bg-[#66BC98] hover:text-white transition-colors">
           <div>
-            Wybierz plan
+            Elegir plan
           </div>
         </a>
       </div>
@@ -81,45 +81,45 @@ const PricingCard: React.FC<PricingCardProps> = ({
 
 const PricingSection = () => {
   const features = [
-    "Publikowanie ładunków na TRANS, TIMOCOM, TELEROUTE",
-    "AI do tworzenia ofert z obrazu",
+    "Publicación de cargas en TRANS, TIMOCOM, TELEROUTE",
+    "IA para crear ofertas desde imagen",
     "Mailing 4.0",
     "WhatsApp",
-    "Autom. odświeżanie ofert ładunków na giełdach",
-    "Integracja ze skrzynką email, branding mailingu list ładunków (tytuł maila, logo w mailu)",
-    "Automatyczne szukanie wolnych pojazdów w TIMOCOM w promieniu 100km od miejsca załadunku",
-    "Statystyki dla spedytora i managera"
+    "Actualización automática de ofertas de carga en bolsas",
+    "Integración con correo electrónico, branding de mailing de lista de cargas (título del correo, logo en correo)",
+    "Búsqueda automática de vehículos libres en TIMOCOM en un radio de 100km del lugar de carga",
+    "Estadísticas para transitario y gerente"
   ];
 
   const plans = [
     {
       planName: "Start",
-      price: "229 PLN / mc",
-      usersIncluded: "3 użytkowników w cenie",
-      additionalUserPrice: "65 PLN (netto) opłata za dodatkowego użytkownika",
+      price: "60 € / mes",
+      usersIncluded: "3 usuarios incluidos",
+      additionalUserPrice: "15 € (neto) tarifa por usuario adicional",
       iconSrc: "https://api.builder.io/api/v1/image/assets/73b29f1caf414e8dadec59a4cd659ee3/cf28d705fe3ee1489b108e35dd077b12b7932836?placeholderIfAbsent=true",
       isHighlighted: true
     },
     {
       planName: "Standard",
-      price: "429 PLN / mc",
-      usersIncluded: "6 użytkowników w cenie",
-      additionalUserPrice: "40 PLN (netto) opłata za dodatkowego użytkownika",
+      price: "100 € / mes",
+      usersIncluded: "6 usuarios incluidos",
+      additionalUserPrice: "10 € (neto) tarifa por usuario adicional",
       iconSrc: "https://api.builder.io/api/v1/image/assets/73b29f1caf414e8dadec59a4cd659ee3/033824076e2cc3875e32c4ffdeab590917d588cd?placeholderIfAbsent=true"
     },
     {
       planName: "Corporate",
-      price: "899 PLN / mc",
-      usersIncluded: "30 użytkowników w cenie",
-      additionalUserPrice: "40 PLN (netto) opłata za dodatkowego użytkownika",
+      price: "200 € / mes",
+      usersIncluded: "30 usuarios incluidos",
+      additionalUserPrice: "10 € (neto) tarifa por usuario adicional",
       iconSrc: "https://api.builder.io/api/v1/image/assets/73b29f1caf414e8dadec59a4cd659ee3/5c468d4585227c5ae72da303a995662feeb037de?placeholderIfAbsent=true"
     }
   ];
 
   return (
-    <section id="cennik" className="w-[1200px] max-w-full mt-60 max-md:mt-10 scroll-mt-24">
+    <section id="precios" className="w-[1200px] max-w-full mt-60 max-md:mt-10 scroll-mt-24">
       <h2 className="text-czarny text-center text-[42px] font-barlow-condensed font-semibold tracking-[1.26px] max-md:max-w-full">
-        Wybierz plan i stanowiska dla siebie
+        Elige tu plan y puestos
       </h2>
       <div className="w-full mt-20 max-md:max-w-full max-md:mt-10">
         <div className="flex w-full gap-10 flex-wrap max-md:max-w-full">

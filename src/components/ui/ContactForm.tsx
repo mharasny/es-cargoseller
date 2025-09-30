@@ -29,7 +29,7 @@ const ContactForm = () => {
     e.preventDefault();
     console.log('Form submitted:', formData);
     // Here you would typically send the data to your backend
-    alert('Formularz został wysłany!');
+    alert('¡Formulario enviado!');
     
     // Reset form
     setFormData({
@@ -44,7 +44,7 @@ const ContactForm = () => {
   return (
     <form onSubmit={handleSubmit} className="min-w-60 text-lg text-[#66BC98] font-normal leading-none flex-1 shrink basis-[0%] max-md:max-w-full">
       <h3 className="text-white font-barlow-condensed text-[30px] font-normal leading-6 mb-6">
-        Formularz kontaktowy
+        Formulario de contacto
       </h3>
       
       <div className="bg-[#5E5E5E] flex w-[861px] items-center gap-2.5 mt-6 px-4 py-2 rounded-lg max-md:max-w-full">
@@ -53,7 +53,7 @@ const ContactForm = () => {
           name="name"
           value={formData.name}
           onChange={handleInputChange}
-          placeholder="Imię Nazwisko"
+          placeholder="Nombre y Apellido"
           className="text-white font-roboto-condensed text-lg font-normal leading-6 self-stretch my-auto bg-transparent border-none outline-none placeholder-zielony w-full"
           required
         />
@@ -65,7 +65,7 @@ const ContactForm = () => {
           name="company"
           value={formData.company}
           onChange={handleInputChange}
-          placeholder="Nazwa firmy"
+          placeholder="Nombre de empresa"
           className="text-white font-roboto-condensed text-lg font-normal leading-6 self-stretch my-auto bg-transparent border-none outline-none placeholder-zielony w-full"
           required
         />
@@ -77,7 +77,7 @@ const ContactForm = () => {
           name="phone"
           value={formData.phone}
           onChange={handleInputChange}
-          placeholder="Telefon"
+          placeholder="Teléfono"
           className="text-white font-roboto-condensed text-lg font-normal leading-6 self-stretch my-auto bg-transparent border-none outline-none placeholder-zielony w-full"
           required
         />
@@ -89,7 +89,7 @@ const ContactForm = () => {
           name="email"
           value={formData.email}
           onChange={handleInputChange}
-          placeholder="Email"
+          placeholder="Correo electrónico"
           className="text-white font-roboto-condensed text-lg font-normal leading-6 self-stretch my-auto bg-transparent border-none outline-none placeholder-zielony w-full"
           required
         />
@@ -100,7 +100,7 @@ const ContactForm = () => {
           name="message"
           value={formData.message}
           onChange={handleInputChange}
-          placeholder="Wiadomość"
+          placeholder="Mensaje"
           className="text-white font-roboto-condensed text-lg font-normal leading-6 bg-transparent border-none outline-none placeholder-zielony w-full resize-none"
           rows={4}
           required
@@ -112,7 +112,7 @@ const ContactForm = () => {
         className="justify-center items-stretch flex min-h-[51px] w-[210px] max-w-full flex-col text-white whitespace-nowrap text-center bg-[#66BC98] mt-6 px-8 py-3.5 rounded-3xl max-md:px-5 hover:bg-[#5aa085] transition-colors"
       >
         <div className="text-white">
-          Wyślij
+          Enviar
         </div>
       </button>
     </form>

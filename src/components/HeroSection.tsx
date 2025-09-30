@@ -11,18 +11,18 @@ const HeroSection = () => {
               <div className="w-[78%] max-md:w-full max-md:ml-0">
                 <div className="mr-[-43px] grow font-semibold mt-12 max-md:max-w-full max-md:mt-0">
                   <h1 className="text-[#4d4d4d] font-barlow-condensed text-[64px] font-[600] leading-normal tracking-[1.28px] max-md:max-w-full max-md:text-[40px]">
-                    Spot Freight <br />
-                    Management System. <br />
+                    Sistema de Gestión <br />
+                    de Carga Spot. <br />
                     <span className="font-barlow-condensed text-[64px] font-[600] leading-normal tracking-[1.28px]" style={{
                     color: '#66BC98'
-                  }}>Nie TMS.</span>
+                  }}>No TMS.</span>
                   </h1>
                   <p className="text-[#4D4D4D] font-barlow-condensed text-[42px] font-[600] leading-normal tracking-[1.26px] mt-6 max-md:max-w-full">
-                    Integrator systemów do sprzedaży <br />
-                    ładunków spotowych.
+                    Integrador de sistemas para <br />
+                    venta de cargas spot.
                   </p>
-                  <a href="#funkcjonalnosci" className="flex h-[51px] px-8 py-4 flex-col justify-center items-center gap-12 text-white font-roboto-condensed text-lg font-normal leading-6 text-center bg-[#66BC98] mt-6 rounded-3xl hover:bg-[#5aa085] transition-colors w-[200px]">
-                    Zobacz więcej
+                  <a href="#funcionalidades" className="flex h-[51px] px-8 py-4 flex-col justify-center items-center gap-12 text-white font-roboto-condensed text-lg font-normal leading-6 text-center bg-[#66BC98] mt-6 rounded-3xl hover:bg-[#5aa085] transition-colors w-[200px]">
+                    Ver más
                   </a>
                 </div>
               </div>

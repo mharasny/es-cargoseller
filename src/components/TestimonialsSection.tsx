@@ -40,9 +40,9 @@ const TestimonialsSection = () => {
   return (
     <section className="bg-[rgba(249,249,249,1)] self-stretch w-full mt-[135px] px-[200px] py-[100px] max-md:max-w-full max-md:mt-10 max-md:px-5">
       <h2 className="text-czarny text-center text-[42px] font-barlow-condensed font-semibold tracking-[1.26px] max-md:max-w-full">
-        Z systemu korzysta już ponad{" "}
-        <span style={{color: 'rgba(102,188,152,1)'}}>800 spedytorów</span>,
-        zaufali nam m.in.:
+        El sistema ya es utilizado por más de{" "}
+        <span style={{color: 'rgba(102,188,152,1)'}}>800 transitarios</span>,
+        confían en nosotros entre otros:
       </h2>
       <div className="overflow-hidden mt-20 max-md:mt-10" ref={emblaRef}>
         <div className="flex gap-[150px] max-md:gap-[80px]">

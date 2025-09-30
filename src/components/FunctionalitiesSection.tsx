@@ -12,14 +12,14 @@ const FunctionalitiesSection = () => {
   const [activeTab, setActiveTab] = useState(0);
 
   const tabs = [
-    "Dodawanie ładunku",
-    "Zbieranie propozycji cenowych",
-    "Lista ładunków",
-    "Odświeżanie i usuwanie ładunków",
-    "Automatyczny mailing listy ładunków",
-    "Ładunki w mojej firmie",
-    "Integracje",
-    "Statystyki"
+    "Añadir carga",
+    "Recoger propuestas de precio",
+    "Lista de cargas",
+    "Actualizar y eliminar cargas",
+    "Mailing automático de lista de cargas",
+    "Cargas en mi empresa",
+    "Integraciones",
+    "Estadísticas"
   ];
 
   const tabImages = [
@@ -34,20 +34,20 @@ const FunctionalitiesSection = () => {
   ];
 
   const tabDescriptions = [
-    "Dodaj ładunek szybciej dzięki opcjom szybkiego wybierania, archiwum czy szablonom, opublikuj nawet na 3 giełdach, uruchom automatyczne odświeżanie ofert i szukanie pojazdów na TIMOCOM, opcjonalnie wyślij mailing ze swoją listą ładunków do swoich zaufanych przewoźników - wszystko w jednym okienku.",
-    "System pobiera propozycje cenowe z giełdy TIMOCOM i kanału mailingowego od Twoich zaufanych przewoźników, dodatkowo pobiera z TIMOCOM oferty wolnych pojazdów w promieniu 100km od miejsca załadunku.",
-    "Główne okno z listą ładunków, pozwoli ci oszczędzić od 50-70% czasu. Z tego miejsca możesz usuwać, odświeżać, dodawać, edytować oferty, przeglądać propozycje cenowe oraz propozycje wolnych pojazdów, finalizować transakcje ze skutkiem na 3 giełdach.",
-    "Cykliczne odświeżenie ładunku to bardzo częsta praktyka u spedytorów uskuteczniająca sprzedaż. U nas proces odświeżania odbywa się automatycznie co 35 min. Opcjonalnie możesz odświeżyć ręcznie. Podobnie wygląda to z usuwaniem ofert - usuwasz wiele ofert lub pojedyncze oferty ze skutkiem na giełdach.",
-    "Powszechna praktyka, czyli wysyłanie maila z listą ładunków do swoich zaufanych przewoźników. Obecnie oddzielna czynność do wykonania obok wpisywania na giełdy. Nasz integrator sprawia, że tą czynność wykonasz przy okazji publikowania na giełdy oszczędzając czas i robiąc to komfortowo jak nigdy dotąd. System sam wygeneruje spersonalizowanego maila z wykazem ładunków.",
-    "Łatwo sprawdź co w Twojej firmie (we wszystkich oddziałach) jest obecnie wystawione na sprzedaż i jakimi kanałami sprzedaży. Możesz łatwo skontaktować się ze współpracownikiem w sprawie ładunku oraz wspierać kolegów/koleżanki wystawiając ładunek jako swój bez przepisywania go.",
-    "Integracja Twojego konta użytkownika z giełdami zajmie Ci mniej niż 3 minuty i jesteś gotowy optymalizować proces pracy i osiągać lepsze efekty w sprzedaży. Możesz również zintegrować swój system TMS z naszym systemem - to jedna prosta i szybka integracja zamiast rozbudowanych, oddzielnych integracji z każdą z giełd. Staniemy się dla Ciebie HUB'em integracyjnym - to nowoczesne podejście w świecie cyfrowych rozwiązań, które przyspiesza integracje i bardzo redukuje jej koszt.",
-    "Przejrzyj statystyki pokazujące jaki był łączny wolumen ładunków, które zostały dodane na sprzedaż. Dowiedz się, ile jest niesprzedanych ładunków i optymalizuj ten obszar. Porównuj miesiące, lata, przeglądaj dane o marży i przychodzie w rozbiciu na oddziały, całą firmę."
+    "Añade la carga más rápido gracias a opciones de selección rápida, archivo o plantillas, publica hasta en 3 bolsas, activa actualización automática de ofertas y búsqueda de vehículos en TIMOCOM, opcionalmente envía mailing con tu lista de cargas a tus transportistas de confianza - todo en una ventana.",
+    "El sistema recoge propuestas de precio de la bolsa TIMOCOM y canal de mailing de tus transportistas de confianza, adicionalmente recoge de TIMOCOM ofertas de vehículos libres en un radio de 100km del lugar de carga.",
+    "Ventana principal con lista de cargas, te permitirá ahorrar del 50-70% de tiempo. Desde aquí puedes eliminar, actualizar, añadir, editar ofertas, revisar propuestas de precio y propuestas de vehículos libres, finalizar transacciones con efecto en 3 bolsas.",
+    "La actualización cíclica de carga es una práctica muy frecuente entre transitarios que efectúa la venta. En nuestro sistema el proceso de actualización ocurre automáticamente cada 35 min. Opcionalmente puedes actualizar manualmente. Similar con eliminación de ofertas - eliminas muchas ofertas o ofertas individuales con efecto en bolsas.",
+    "Práctica común, es decir envío de correo con lista de cargas a tus transportistas de confianza. Actualmente acción separada a realizar además de ingresar en bolsas. Nuestro integrador hace que esta acción la hagas al publicar en bolsas ahorrando tiempo y haciéndolo cómodamente como nunca antes. El sistema generará automáticamente correo personalizado con lista de cargas.",
+    "Revisa fácilmente qué en tu empresa (en todas las sucursales) está actualmente expuesto para venta y por qué canales de venta. Puedes contactar fácilmente con compañero sobre la carga y apoyar a colegas exponiendo la carga como tuya sin reescribirla.",
+    "La integración de tu cuenta de usuario con bolsas te tomará menos de 3 minutos y estás listo para optimizar el proceso de trabajo y lograr mejores efectos en venta. También puedes integrar tu sistema TMS con nuestro sistema - es una integración simple y rápida en lugar de integraciones extensas y separadas con cada bolsa. Nos convertiremos en tu HUB de integración - es un enfoque moderno en el mundo de soluciones digitales, que acelera integraciones y reduce mucho su coste.",
+    "Revisa estadísticas mostrando cuál fue el volumen total de cargas que fueron añadidas para venta. Descubre cuántas cargas no vendidas hay y optimiza esta área. Compara meses, años, revisa datos sobre margen e ingresos desglosados por sucursales, toda la empresa."
   ];
 
   return (
-    <section id="funkcjonalnosci" className="w-full max-w-[1520px] mt-[131px] max-md:max-w-full max-md:mt-10 scroll-mt-24">
+    <section id="funcionalidades" className="w-full max-w-[1520px] mt-[131px] max-md:max-w-full max-md:mt-10 scroll-mt-24">
       <h2 className="text-czarny text-center text-[42px] font-barlow-condensed font-semibold tracking-[1.26px] max-md:max-w-full">
-        Funkcjonalności
+        Funcionalidades
       </h2>
       <div className="flex w-full flex-col items-stretch text-lg text-[#4E4D4D] font-normal mt-20 max-md:max-w-full max-md:mt-10">
         <div className="flex w-full items-stretch gap-[40px_60px] flex-wrap rounded-2xl max-md:max-w-full">

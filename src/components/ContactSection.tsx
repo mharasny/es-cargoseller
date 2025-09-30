@@ -5,7 +5,7 @@ import accountClientIcon from '@/assets/account-client.svg';
 
 const ContactSection = () => {
   return (
-    <footer id="kontakt" className="flex w-full max-w-[1520px] flex-col items-center bg-[#4D4D4D] mt-[316px] pt-20 pb-[33px] px-20 rounded-2xl max-md:max-w-full max-md:mt-10 max-md:px-5 scroll-mt-24">
+    <footer id="contacto" className="flex w-full max-w-[1520px] flex-col items-center bg-[#4D4D4D] mt-[316px] pt-20 pb-[33px] px-20 rounded-2xl max-md:max-w-full max-md:mt-10 max-md:px-5 scroll-mt-24">
       <div className="flex w-[1200px] max-w-full flex-col items-stretch">
         <div className="flex gap-[40px_77px] flex-wrap max-md:max-w-full">
           <ContactForm />
@@ -20,7 +20,7 @@ const ContactSection = () => {
                   style={{ aspectRatio: '54.76/60.00' }}
                 />
                 <div className="text-zielony font-roboto-condensed text-[20px] font-bold leading-6 self-stretch my-auto">
-                  Obsługa Klienta
+                  Atención al Cliente
                 </div>
               </div>
               <div className="flex w-full items-center gap-[30px] mt-2 px-2">
@@ -62,7 +62,7 @@ const ContactSection = () => {
                   className="aspect-[0.92] object-contain w-[55px] self-stretch shrink-0 my-auto rounded-[0px_0px_0px_0px]"
                 />
                 <div className="text-zielony font-roboto-condensed text-[20px] font-bold leading-6 self-stretch my-auto">
-                  Wsparcie techniczne
+                  Soporte técnico
                 </div>
               </div>
               <div className="flex w-full items-center gap-[30px] text-lg text-white font-normal whitespace-nowrap leading-none mt-2 px-2">
@@ -98,9 +98,9 @@ const ContactSection = () => {
             </div>
           </div>
           <div className="text-white font-roboto-condensed text-lg font-normal leading-6 self-stretch w-[821px] my-auto pl-5 max-md:max-w-full">
-            Cyfrowe narzędzia i integracje z giełdami do Twojej
-            dyspozycji.Wykorzystaj je, aby sprzedawać ładunki spot szybciej,
-            wygodniej, skuteczniej.
+            Herramientas digitales e integraciones con bolsas a tu
+            disposición. Úsalas para vender cargas spot más rápido,
+            más cómodamente, más eficazmente.
           </div>
         </div>
         
@@ -110,7 +110,7 @@ const ContactSection = () => {
           </div>
           <div className="flex items-stretch gap-[40px_80px] max-md:max-w-full">
             <Link to="/polityka-prywatnosci" className="text-white opacity-50 basis-auto hover:opacity-100 transition-opacity">
-              Polityka prywatności i cookies
+              Política de privacidad y cookies
             </Link>
             <div className="text-white opacity-50 basis-auto">
               CS SOFT, Szydłowo 189, 64-930 Szydłowo

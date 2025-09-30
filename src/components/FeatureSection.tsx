@@ -48,24 +48,24 @@ const FeatureItem: React.FC<FeatureItemProps> = ({
 };
 const FeaturesContainer = () => {
   const features = [{
-    title: "Publikowanie ładunków spot na sprzedaż",
-    description: "W CARGOseller dodajesz ładunek jeden raz i wskazujesz, które narzędzia i kanały sprzedaży aktywujesz.",
-    features: ["wysyłka nawet na 3 giełdy transportowe - publikujesz ładunki do giełd w których masz konto", "Mailing 4.0 - automatyczne generowanie maila z listą ładunków do wybranych grup zaufanych podwykonawców"],
+    title: "Publicación de cargas spot para venta",
+    description: "En CARGOseller añades la carga una vez e indicas qué herramientas y canales de venta activas.",
+    features: ["envío hasta 3 bolsas de transporte - publicas cargas en bolsas donde tienes cuenta", "Mailing 4.0 - generación automática de correo con lista de cargas para grupos seleccionados de subcontratistas de confianza"],
     imageSrc: statsImage
   }, {
-    title: "Automatyczne szukanie wolnego pojazdu",
-    description: "Integracja CARGOseller z TIMOCOM pozwala na automatyczne szukanie wolnych pojazdów w promieniu 100km od miejsca załadunku ładunku, który dodano do CARGOseller.",
-    features: ["od teraz nie szukasz wolnych pojazdów manualnie, robi to za Ciebie algorytm", "znalezione wyniki wyświetlane są w kolumnie „Propozycje\" wraz z propozycjami cenowymi z innych systemów"],
+    title: "Búsqueda automática de vehículo libre",
+    description: "La integración de CARGOseller con TIMOCOM permite búsqueda automática de vehículos libres en un radio de 100km desde el lugar de carga añadida a CARGOseller.",
+    features: ["desde ahora no buscas vehículos libres manualmente, el algoritmo lo hace por ti", "los resultados encontrados se muestran en la columna \"Propuestas\" junto con propuestas de precio de otros sistemas"],
     imageSrc: searchVehicleImage
   }, {
-    title: "AI - szybciej, więcej, skuteczniej",
-    description: "Wklej TEKST zapytania, a system wykorzystując AI utworzy gotowe oferty. Dodaj OBRAZ na którym są oferty, a system także utworzy gotowe oferty w czasie szybszym niż człowiek.",
-    features: ["Praca z AI to sposób na poprawę efektywności i wyników finansowych bo zyskujesz czas", "Komfort pracy - nie przepisujesz ofert ręcznie"],
+    title: "IA - más rápido, más, más eficaz",
+    description: "Pega el TEXTO de la consulta y el sistema usando IA creará ofertas listas. Añade IMAGEN con ofertas y el sistema también creará ofertas listas en tiempo más rápido que una persona.",
+    features: ["Trabajar con IA es una forma de mejorar la eficiencia y resultados financieros porque ganas tiempo", "Comodidad de trabajo - no reescribes ofertas manualmente"],
     imageSrc: statisticsImage
   }, {
-    title: "Statystyki",
-    description: "Rozproszenie wolumenu ładunków spot na sprzedaż na mailach wielu pracowników uniemożliwia przeprowadzanie analiz. Agregowanie wszystkich ładunków spot na sprzedaż w systemie CARGOseller pozwala na dostarczenie kompletnych statystyk.",
-    features: ["statystyki w ujęciu czasowym", "liczbę ładunków wpisanych, sprzedanych"],
+    title: "Estadísticas",
+    description: "La dispersión del volumen de cargas spot para venta en correos de muchos empleados imposibilita realizar análisis. Agregar todas las cargas spot para venta en el sistema CARGOseller permite entregar estadísticas completas.",
+    features: ["estadísticas en perspectiva temporal", "número de cargas ingresadas, vendidas"],
     imageSrc: aiFeatureImage
   }];
   return <section className="w-full max-w-[1520px] mt-[111px] max-md:max-w-full max-md:mt-16">
