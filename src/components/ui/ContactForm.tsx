@@ -1,4 +1,15 @@
 import React, { useState } from 'react';
+import { useToast } from '@/hooks/use-toast';
+import { supabase } from '@/integrations/supabase/client';
+import { z } from 'zod';
+
+const contactSchema = z.object({
+  name: z.string().trim().min(1, "El nombre es obligatorio").max(100),
+  company: z.string().trim().min(1, "El nombre de empresa es obligatorio").max(100),
+  phone: z.string().trim().min(1, "El teléfono es obligatorio").max(20),
+  email: z.string().trim().email("Email inválido").max(255),
+  message: z.string().trim().min(1, "El mensaje es obligatorio").max(1000)
+});
 
 interface FormData {
   name: string;
@@ -9,6 +20,8 @@ interface FormData {
 }
 
 const ContactForm = () => {
+  const { toast } = useToast();
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState<FormData>({
     name: '',
     company: '',
@@ -25,20 +38,55 @@ const ContactForm = () => {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    // Here you would typically send the data to your backend
-    alert('¡Formulario enviado!');
     
-    // Reset form
-    setFormData({
-      name: '',
-      company: '',
-      phone: '',
-      email: '',
-      message: ''
-    });
+    try {
+      // Validate form data
+      const validatedData = contactSchema.parse(formData);
+      
+      setIsSubmitting(true);
+
+      // Send email via edge function
+      const { error } = await supabase.functions.invoke('send-contact-email', {
+        body: validatedData
+      });
+
+      if (error) {
+        throw error;
+      }
+
+      toast({
+        title: "¡Mensaje enviado!",
+        description: "Gracias por contactarnos. Te responderemos pronto.",
+      });
+
+      // Reset form
+      setFormData({
+        name: '',
+        company: '',
+        phone: '',
+        email: '',
+        message: ''
+      });
+    } catch (error) {
+      if (error instanceof z.ZodError) {
+        toast({
+          title: "Error de validación",
+          description: error.errors[0].message,
+          variant: "destructive",
+        });
+      } else {
+        console.error('Error sending email:', error);
+        toast({
+          title: "Error",
+          description: "No se pudo enviar el mensaje. Por favor, inténtalo de nuevo.",
+          variant: "destructive",
+        });
+      }
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -109,10 +157,11 @@ const ContactForm = () => {
       
       <button
         type="submit"
-        className="justify-center items-stretch flex min-h-[51px] w-[210px] max-w-full flex-col text-white whitespace-nowrap text-center bg-[#66BC98] mt-6 px-8 py-3.5 rounded-3xl max-md:px-5 hover:bg-[#5aa085] transition-colors"
+        disabled={isSubmitting}
+        className="justify-center items-stretch flex min-h-[51px] w-[210px] max-w-full flex-col text-white whitespace-nowrap text-center bg-[#66BC98] mt-6 px-8 py-3.5 rounded-3xl max-md:px-5 hover:bg-[#5aa085] transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
       >
         <div className="text-white">
-          Enviar
+          {isSubmitting ? 'Enviando...' : 'Enviar'}
         </div>
       </button>
     </form>
