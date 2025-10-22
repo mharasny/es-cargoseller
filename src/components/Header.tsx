@@ -9,19 +9,19 @@ import {
 } from "@/components/ui/dropdown-menu";
 
 const languages = [
-  { code: 'at', name: 'Österreich', url: 'https://cargoseller.at', flag: '🇦🇹' },
-  { code: 'be', name: 'Belgique', url: 'https://cargoseller.be', flag: '🇧🇪' },
-  { code: 'cz', name: 'Česko', url: 'https://cargoseller.cz', flag: '🇨🇿' },
-  { code: 'fr', name: 'Français', url: 'https://cargoseller.fr', flag: '🇫🇷' },
-  { code: 'es', name: 'Español', url: 'https://cargoseller.es', flag: '🇪🇸', active: true },
-  { code: 'nl', name: 'Nederland', url: 'https://cargoseller.nl', flag: '🇳🇱' },
-  { code: 'lt', name: 'Lietuvių', url: 'https://cargoseller.lt', flag: '🇱🇹' },
-  { code: 'de', name: 'Deutsch', url: 'https://cargoseller.de', flag: '🇩🇪' },
-  { code: 'pl', name: 'Polska', url: 'https://cargoseller.pl', flag: '🇵🇱' },
-  { code: 'ro', name: 'România', url: 'https://cargoseller.ro', flag: '🇷🇴' },
-  { code: 'sk', name: 'Slovensko', url: 'https://cargoseller.sk', flag: '🇸🇰' },
-  { code: 'gb', name: 'English', url: 'https://cargoseller.co.uk', flag: '🇬🇧' },
-  { code: 'it', name: 'Italiano', url: 'https://cargoseller.it', flag: '🇮🇹' },
+  { code: 'at', name: 'Österreich', url: 'https://cargoseller.at' },
+  { code: 'be', name: 'Belgique', url: 'https://cargoseller.be' },
+  { code: 'cz', name: 'Česko', url: 'https://cargoseller.cz' },
+  { code: 'fr', name: 'Français', url: 'https://cargoseller.fr' },
+  { code: 'es', name: 'Español', url: 'https://cargoseller.es', active: true },
+  { code: 'nl', name: 'Nederland', url: 'https://cargoseller.nl' },
+  { code: 'lt', name: 'Lietuvių', url: 'https://cargoseller.lt' },
+  { code: 'de', name: 'Deutsch', url: 'https://cargoseller.de' },
+  { code: 'pl', name: 'Polska', url: 'https://cargoseller.pl' },
+  { code: 'ro', name: 'România', url: 'https://cargoseller.ro' },
+  { code: 'sk', name: 'Slovensko', url: 'https://cargoseller.sk' },
+  { code: 'gb', name: 'English', url: 'https://cargoseller.co.uk' },
+  { code: 'it', name: 'Italiano', url: 'https://cargoseller.it' },
 ];
 
 const Header = () => {
@@ -64,7 +64,7 @@ const Header = () => {
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <div className="justify-center items-center flex flex-col w-[60px] h-[73px] bg-[#4D4D4D] px-2.5 py-2 gap-2.5 cursor-pointer hover:bg-gray-600 transition-colors">
-                <span className="text-2xl">{activeLanguage.flag}</span>
+                <span className={`fi fi-${activeLanguage.code} text-2xl`}></span>
               </div>
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-48 bg-popover z-50">
@@ -74,7 +74,7 @@ const Header = () => {
                     href={lang.url}
                     className={`flex items-center gap-2 ${lang.active ? 'bg-accent' : ''}`}
                   >
-                    <span className="text-lg">{lang.flag}</span>
+                    <span className={`fi fi-${lang.code}`}></span>
                     <span>{lang.name}</span>
                   </a>
                 </DropdownMenuItem>
@@ -146,7 +146,7 @@ const Header = () => {
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
                   <div className="flex w-full items-center justify-center p-4 hover:bg-gray-600 transition-colors cursor-pointer">
-                    <span className="text-2xl mr-2">{activeLanguage.flag}</span>
+                    <span className={`fi fi-${activeLanguage.code} text-2xl mr-2`}></span>
                     <div className="text-white font-roboto-condensed text-lg font-normal leading-6">
                       Idioma / Language
                     </div>
@@ -159,7 +159,7 @@ const Header = () => {
                         href={lang.url}
                         className={`flex items-center gap-2 ${lang.active ? 'bg-accent' : ''}`}
                       >
-                        <span className="text-lg">{lang.flag}</span>
+                        <span className={`fi fi-${lang.code}`}></span>
                         <span>{lang.name}</span>
                       </a>
                     </DropdownMenuItem>
