@@ -1,14 +1,16 @@
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: facebookexternalhit
-Allow: /
-
 User-agent: *
 Allow: /
+
+Sitemap: https://cargoseller.es/sitemap.xml
+Sitemap: https://cargoseller.at/sitemap-at.xml
+Sitemap: https://cargoseller.be/sitemap-be.xml
+Sitemap: https://cargoseller.cz/sitemap-cz.xml
+Sitemap: https://cargoseller.fr/sitemap-fr.xml
+Sitemap: https://cargoseller.nl/sitemap-nl.xml
+Sitemap: https://cargoseller.lt/sitemap-lt.xml
+Sitemap: https://cargoseller.de/sitemap-de.xml
+Sitemap: https://cargoseller.pl/sitemap-pl.xml
+Sitemap: https://cargoseller.ro/sitemap-ro.xml
+Sitemap: https://cargoseller.sk/sitemap-sk.xml
+Sitemap: https://cargoseller.co.uk/sitemap-gb.xml
+Sitemap: https://cargoseller.it/sitemap-it.xml
