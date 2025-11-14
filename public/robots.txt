@@ -3,7 +3,7 @@ Allow: /
 
 Sitemap: https://cargoseller.es/sitemap.xml
 Sitemap: https://cargoseller.at/sitemap-at.xml
-Sitemap: https://cargoseller.be/sitemap-be.xml
+Sitemap: https://cargoseller.eu/sitemap-be.xml
 Sitemap: https://cargoseller.cz/sitemap-cz.xml
 Sitemap: https://cargoseller.fr/sitemap-fr.xml
 Sitemap: https://cargoseller.nl/sitemap-nl.xml

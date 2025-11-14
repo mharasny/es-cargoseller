@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://cargoseller.be/</loc>
+    <loc>https://cargoseller.eu/</loc>
     <lastmod>2025-01-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="de-at" href="https://cargoseller.at/" />
-    <xhtml:link rel="alternate" hreflang="fr-be" href="https://cargoseller.be/" />
+    <xhtml:link rel="alternate" hreflang="fr-be" href="https://cargoseller.eu/" />
     <xhtml:link rel="alternate" hreflang="cs-cz" href="https://cargoseller.cz/" />
     <xhtml:link rel="alternate" hreflang="fr-fr" href="https://cargoseller.fr/" />
     <xhtml:link rel="alternate" hreflang="es-es" href="https://cargoseller.es/" />
