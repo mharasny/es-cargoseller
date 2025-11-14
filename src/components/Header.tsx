@@ -10,7 +10,7 @@ import {
 
 const languages = [
   { code: 'at', name: 'Österreich', url: 'https://cargoseller.at' },
-  { code: 'be', name: 'Belgique', url: 'https://cargoseller.be' },
+  { code: 'be', name: 'Belgique', url: 'https://cargoseller.eu' },
   { code: 'cz', name: 'Česko', url: 'https://cargoseller.cz' },
   { code: 'fr', name: 'Français', url: 'https://cargoseller.fr' },
   { code: 'es', name: 'Español', url: 'https://cargoseller.es', active: true },
